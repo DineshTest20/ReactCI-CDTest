@@ -65,6 +65,9 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     needs: [build, test]
+    permissions:
+      contents: write # Allows the bot to create commits and push to the branch.
+      pages: write    # Recommended for GitHub Pages-specific permissions.
 
     steps:
       - name: Checkout Code
