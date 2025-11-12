@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest run --ci"
+    "test": "vitest run"
   },
   "dependencies": {
     "react": "^19.2.0",
