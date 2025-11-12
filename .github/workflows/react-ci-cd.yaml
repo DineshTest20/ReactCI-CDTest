@@ -58,7 +58,7 @@ jobs:
         working-directory: my-react-app
 
       - name: Run Tests
-        run: yarn test --watchAll=false
+        run: yarn test
         working-directory: my-react-app
 
   deploy:
